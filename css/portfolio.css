@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.container {
+    max-width: 1120px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+#hero {
+    margin-bottom: 94px;
+}
+
+.manage__img-box {
+    background-image: url(../imgs/manage-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 500px;
+}
+
+.manage__img-bookmark {
+    background-image: url(../imgs/manage-bookmark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 500px;
+}
+
+.manage__img-insure {
+    background-image: url(../imgs/manage-insure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 500px;
+}
+
+.manage__img-fylo {
+    background-image: url(../imgs/manage-fylo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 500px;
+}
+
+.manage__main {
+    margin-bottom: 80px;
+}
+
+.manage__entry {
+    width: 350px;
+    border-top: 1px solid #ddddde;
+    padding-top: 103px;
+    border-bottom: 1px solid #ddddde;
+    padding-bottom: 103px;
+}
+
+.manage__title {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    margin-bottom: 24px;
+}
+
+.manage__text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323d;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.manage__link {
+    text-decoration: none;
+    padding: 17px 34px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323d;
+    border: 1px solid #33323d;
+    transition: all 0.3s ease;
+}
+
+.manage__link:hover {
+    transition: all 0.3s ease;
+    background-color: #33323d;
+    color: #fff;
+}
+
+.manage__link:active {
+    border: 1px solid #d6d6d8;
+}
+
+#manage {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .manage__img-box {
+        background-image: url(../imgs/manage-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+    }
+    .manage__img-bookmark {
+        background-image: url(../imgs/manage-book-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+    }
+
+    .manage__img-insure {
+        background-image: url(../imgs/manage-insure-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+    }
+    .manage__img-fylo {
+        background-image: url(../imgs/manage-fylo-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+    }
+    .manage__main {
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 834px) {
+    .manage__img-box {
+        background-image: url(../imgs/manage-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+        margin-bottom: 32px;
+    }
+    .manage__img-bookmark {
+        background-image: url(../imgs/manage-book-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+        margin-bottom: 32px;
+    }
+    .manage__img-insure {
+        background-image: url(../imgs/manage-insure-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+        margin-bottom: 32px;
+    }
+    .manage__img-fylo {
+        background-image: url(../imgs/manage-fylo-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 339px;
+        height: 314px;
+        margin-bottom: 32px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .manage__main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .manage__img-box {
+        background-image: url(../imgs/manage-mobi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 311px;
+        height: 288px;
+        margin-bottom: 32px;
+    }
+    
+    .manage__img-bookmark {
+        background-image: url(../imgs/mange-book-mobi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 311px;
+        height: 288px;
+        margin-top: 50px;
+    }
+    .manage__img-insure {
+        background-image: url(../imgs/manage-insure-mobi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 311px;
+        height: 288px;
+        margin-top: 50px;
+    }
+    .manage__img-fylo {
+        background-image: url(../imgs/manage-fylo-mobi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 311px;
+        height: 288px;
+        margin-top: 50px;
+    }
+
+    .manage__entry {
+        width: 311px;
+    }  
+
+}
+
+#manage {
+    margin-bottom: 120px;
+}
