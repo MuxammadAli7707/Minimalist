@@ -126,6 +126,7 @@ body {
 }
 
 .contact__btn:hover {
+    border: 1px solid #203a4c;
     background-color: #fff;
     color: #33323d;
     transition: all 0.3s ease;
