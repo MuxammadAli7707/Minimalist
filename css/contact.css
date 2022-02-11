@@ -122,6 +122,13 @@ body {
     background-color: #203a4c;
     padding: 17px 24px;
     border: none;
+    transition: all 0.3s ease;
+}
+
+.contact__btn:hover {
+    background-color: #fff;
+    color: #33323d;
+    transition: all 0.3s ease;
 }
 
 
