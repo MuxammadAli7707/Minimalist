@@ -258,8 +258,6 @@ body {
 }
 
 .about__entry {
-  width: 350px;
-  border-top: 1px solid #ddddde;
   border-bottom: 1px solid #ddddde;
   padding-top: 50px;
   padding-bottom: 46px;
@@ -268,18 +266,34 @@ body {
 .about__title {
   font-family: 'Ibarra Real Nova', serif;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
+  font-size: 52px;
+  line-height: 54px;
   letter-spacing: -0.357143px;
   color: #33323d;
   margin-bottom: 28px;
 }
 .about__text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: #33323d;
-  opacity: 0.8;
-  margin-bottom: 24px;
+  margin: 0;
+  position: relative;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.about__text::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: #33323d;
+  transition: all 0.4s ease;
+}
+.about__text:hover::after {
+  transition: all 0.4s ease;
+  width: 100%;
 }
 .about__link {
   text-decoration: none;
